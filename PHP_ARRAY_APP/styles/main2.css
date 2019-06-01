@@ -1,0 +1,139 @@
+/* overall style info */
+body {
+    margin-top: 0;
+	background-color: #808fa5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 140%;
+    margin: 0;
+    padding: .5em 0 .4em; /* top right-left bottom */
+}
+h2 {
+    font-size: 120%;
+    margin: 0;
+    padding: .25em 0 .5em;  /* top right-left bottom */
+}
+h1, h2 {
+	color: #555;
+}
+
+ul {
+    margin: 0 0 1em 0;     /* top right bottom left */
+    padding: 0 0 0 2.5em;  /* top right bottom left */ 
+}
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul.nav li {
+    padding-bottom: 0.5em;
+}
+
+a {
+    font-weight: bold;
+    
+}
+a:hover {
+    color: #6495ED;
+}
+
+table {
+    border: 2px solid navy;
+    border-collapse: collapse;
+}
+td, th {
+    border: 1px solid navy;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+form {
+    margin: 0;
+}
+br {
+    clear: left;
+}
+
+/* division id style info */
+#page {
+    width: 750px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #C00;
+}
+#header {
+    margin: 0;
+	border-bottom: 2px solid #C00;
+    padding: .5em 2em;  /* top-bottom right-left */
+}
+#header h1 {
+    margin: 0;
+    padding: .5em 0;
+    color: black;
+}
+#main {
+    margin: 0;
+    padding: .5em 2em;
+}
+
+#sidebar {
+    float: left;
+    width: 150px;
+}
+
+#content {
+    float: left;
+    width: 500px;
+    padding-bottom: 1.5em;
+}
+#left_column {
+	width: 150px;
+    float: left;
+    padding-left: 1.5em;
+}
+#right_column {
+    float: left;
+    padding-left: 1em;
+}
+#footer {
+    clear: both;
+	border-top: 2px solid #C00;
+    margin-top: 1em;
+    padding-right: 1em;
+}
+#footer p {
+	font-size: 80%;
+    text-align: right;
+    margin: 1em 1em;  /* top-bottom : left-right */
+}
+
+.right {
+    text-align: right;
+}
+
+
+/* form style info */
+
+#form1 {
+    margin: .5em 0 2em;
+}
+#form1 label {
+    width: 6em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+    float: left;
+}
+#form1 input {
+    float: left;
+}
+#form1 input[text] {
+    width: 15em;
+}
